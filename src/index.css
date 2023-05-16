@@ -11,3 +11,175 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.examples-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color:rgb(241, 4, 4) */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.welcome {
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome p {
+  margin: 10px auto;
+  max-width: 600px;
+  color: #ddd;
+  margin-top: 2%;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  font-size: 105%;
+}
+
+#root {
+  text-align: center;
+}
+.calculator-title {
+  font-size: 30px;
+  background: #fff;
+  width: 400px;
+  padding: 10px 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  border: 2px solid black;
+  color: #4CAF50;
+}
+.mainCalc {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  box-sizing: border-box;
+}
+.screen-row input {
+  width: 400px;
+  background: #ddd;
+  border: 0px;
+  color: #222;
+  padding: 10px;
+  text-align: right;
+}
+.transient{
+/* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 5%;
+}
+.graph-container{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #08714b;
+    width: 1000;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(241, 240, 240, 0.3);
+    margin: auto;
+    margin-top: 5%;
+}
+.transient h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color:#222;
+  
+}
+
+.transient form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.transient form label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.transient form input[type="number"] {
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.transient button {
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2c642e;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.transient button:hover {
+  background-color: #4CAF50;
+}
+
+.transient p {
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* input[type="button"] {
+  width: 100px;
+  background: #4CAF50;
+  border: 1px solid #222;
+  padding: 10px 20px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type="button"]:active {
+  background: #ccc;
+} */
+.graph {
+  margin: 20px 0;
+}
+
+/* input[type="number"]{
+width: 100px;
+  background: #4CAF50;
+  border: 1px solid #222;
+  padding: 10px 20px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} */
